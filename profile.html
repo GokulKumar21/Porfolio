@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        #Navigation{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position:sticky;
+            top: 0px;
+            background-color: rgb(65, 63, 63);
+            box-shadow: 0px 8px 8px rgb(0, 217, 255);
+        }
+        .profile{
+            padding-left: 30px;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(17, 168, 238);
+        }
+        .shortcut{
+            padding-right: 30px;
+            text-decoration: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aqua;
+            
+        }
+        .shortcut:hover{
+            color: rgb(255, 251, 0);
+            transition: 0.3s;
+            animation-direction: reverse;
+        }
+        .About{
+            display: flex;
+            justify-content: space-evenly;
+            height: 530px;
+            background-position: center;
+            background-size: cover;
+            align-items: center;
+            background-image: url(./cbe83404192648c8b407570fa9f4f869\ \(1\).webp)
+        }
+        .my-detils{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            padding-top: 20px;
+            padding-left: 50px;
+        }
+        .my-name{
+            color: rgb(248, 247, 245);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        .my_image{
+            height: 530px;
+        }
+        .name{
+            font-size: 50px;
+            color: rgb(8, 215, 252);
+        }
+        .title{
+            font-size: 30px;
+            color: aquamarine;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .Education
+        {
+        height: 530px;
+        background-color: rgb(56, 66, 66);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        .Skills{
+            height: 530px;
+            background-color: rgb(87, 85, 85);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }.Project{
+            height: 530px;
+            background-color: rgb(104, 102, 102);
+            padding-left: 200px;
+            padding-top: 150px;
+        }
+        .pro1{
+            font-size: 55px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aquamarine;
+        }
+        .pro2{
+            font-size: 35px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(126, 216, 216);
+
+        }
+        .pro3{
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+        }
+        .contact{
+            height: 530px;
+            background-color: rgb(127, 130, 131);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center
+        }
+        #icon{
+            font-size: 40px;
+            gap: 30px;
+            text-decoration: none;
+            padding-left: 30px;
+            color: rgb(255, 255, 255);
+        }
+        #icon:hover{
+            color: rgb(230, 243, 44);
+            animation-direction: reverse ;
+            transition: 0.3s;
+            transform: "zoomout";
+        }
+       .cnt{
+        padding-left: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        color: aqua;
+       }
+
+    </style>
+    <div id="Navigation">
+        <section>
+            <p class="profile">Profile</p>
+        </section>
+        <section>
+         <a class="shortcut" onclick="about()"  href="">About</a>
+        <a class="shortcut" href="">Education/Course</a>
+        <a class="shortcut" href="">Skils</a>
+        <a class="shortcut" href="">Projects</a>
+        <a class="shortcut" href="">Contact</a>
+        </section>  
+    </div>
+        <div class="About">
+            <section class="my-detils">
+                <p class="my-name">Hello i am <br>
+                    <span class="name"> fucking BULLY GOKUL KUMAR S</span>
+                </p>
+                    <p class=" my-name"><span class="title">Objective</span><br>
+                    Looking for entry-level position as FULL STACK devolper in a dynamic firm <br>
+                    that analytical and technical skils and provides scope for updating my knowledge. <br>
+                     I seeking a company that will help me consider to its while concurrently aiding my personal growth.</p>
+            </section>
+            <section>
+                <img class="my_image" src="./Picsart_24-04-03_19-07-16-879.png" alt="">
+            </section>
+        </div>
+      <div class="Education">
+        <section>
+        <h2 class="title">EDUCATION</h2>
+        <p class="my-name">Global Insistitue of Engineering & Technology <br> Computer Science & Engineering <br> 71% <br>2022</p>
+        <p class="my-name">Govt Hr Sec School Thorapadi <br> 12th <br>58% <br>2018</p>
+        <p class="my-name">Govt Hr Sec School Thorapdi <br> 10th <br>68% <br> 2016</p>
+    </section>
+    <section>
+        <h2 class="title">Course</h2>
+        <p class="my-name">Completet Java Full Stack devolpment in J spider chennai </p>
+    </section>
+      </div>
+       <div class="Skills">
+        <section class="tech-s">
+            <h2 class="title">Technical Skils</h2>
+            <p class=" my-name">HTML & CSS</p>
+            <p class=" my-name">JavaScript(Basics)</p>
+            <p class=" my-name">Core-Java</p>
+            <p class=" my-name">SQL</p>
+        </section>
+        <section class="tech-s">
+            <h2 class="title">Soft Skills</h2>
+            <p class=" my-name">Time Managment</p>
+            <p class=" my-name">Good Commnication</p>
+            <p class=" my-name">Leadership</p>
+            <p class=" my-name">Team work & Collabritive</p>
+        </section>
+        <section>
+            <H2 class="title">Tools</H2>
+            <p class=" my-name">VS Code</p>
+            <p class=" my-name">Eclips</p>
+            <p class=" my-name">My SQL Work Bench</p>
+            <p class=" my-name">GIT</p>
+        </section>
+    </div>
+    <div class="Project">
+      <h1 class="pro1" >Project</h1> <br>
+      <h2 class="pro2">Travel Managment System</h2>
+      <p class="pro3">Travel and tourism management system is used to book a tour from anywhere <br>
+         in the world by a single dynamic website which will helpthe user to know <br>
+         all about the places and tour details in a single website.</p>
+    </div>
+    <div class="contact">
+        <section class="Social_media">
+            <h1 class="cnt">Contact</h1>
+          <a href="https://wa.me/919092356128"><i id="icon" class="fa-brands fa-whatsapp"></i></a>
+         <a href="https://www.linkedin.com/in/gokul-kumar-06422a2b1"><i id="icon" class="fa-brands fa-linkedin"></i></a>
+         <a href="mailto:test@gmail.com"><i id="icon" class="fa-regular fa-envelope"></i></a>
+   </section>
+        <section class="resume">
+            <h2 class="cnt"> My Resume</h2>
+            <a download="Gokul kumar" href="/Gokul kumar sd.pdf"><i id="icon" class="fa-solid fa-download"></i></a>
+           <a href="./Gokul kumar sd.pdf"><i id="icon" class="fa-regular fa-eye"></i></a> 
+        </section>
+    </div>
+</body>
+</html>
